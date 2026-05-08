@@ -1,0 +1,18 @@
+[
+  {
+    "model": "catalog.category",
+    "pk": 1,
+    "fields": {"name": "Электроника", "is_active": true}
+  },
+  {
+    "model": "catalog.product",
+    "pk": 1,
+    "fields": {
+      "name": "Смартфон",
+      "category": 1,
+      "price": "29990.00",
+      "description": "Мощный смартфон.",
+      "is_active": true
+    }
+  }
+]
